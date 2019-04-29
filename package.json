@@ -1,0 +1,26 @@
+{
+  "name": "authz-code-flow-and-pkce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./server.js | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "crypto": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "node-fetch": "^2.3.0"
+  }
+}
